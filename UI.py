@@ -1,3 +1,100 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d1c5fe0a6ee85b642310b96ddfadff0f319399f0eee33928047f55ffd9262146
-size 4612
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file './VD.ui'
+#
+# Created by: PyQt5 UI code generator 5.9.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(1000, 700)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.OpenFile = QtWidgets.QPushButton(self.centralwidget)
+        self.OpenFile.setGeometry(QtCore.QRect(40, 80, 101, 41))
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.OpenFile.setFont(font)
+        self.OpenFile.setIconSize(QtCore.QSize(20, 20))
+        self.OpenFile.setObjectName("OpenFile")
+        self.NextGraph = QtWidgets.QPushButton(self.centralwidget)
+        self.NextGraph.setGeometry(QtCore.QRect(40, 160, 101, 41))
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.NextGraph.setFont(font)
+        self.NextGraph.setIconSize(QtCore.QSize(20, 20))
+        self.NextGraph.setObjectName("NextGraph")
+        self.Clean = QtWidgets.QPushButton(self.centralwidget)
+        self.Clean.setGeometry(QtCore.QRect(40, 240, 101, 41))
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.Clean.setFont(font)
+        self.Clean.setIconSize(QtCore.QSize(20, 20))
+        self.Clean.setObjectName("Clean")
+        self.StepByStep = QtWidgets.QPushButton(self.centralwidget)
+        self.StepByStep.setGeometry(QtCore.QRect(40, 320, 101, 41))
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.StepByStep.setFont(font)
+        self.StepByStep.setIconSize(QtCore.QSize(20, 20))
+        self.StepByStep.setObjectName("StepByStep")
+        self.Run = QtWidgets.QPushButton(self.centralwidget)
+        self.Run.setGeometry(QtCore.QRect(40, 400, 101, 41))
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.Run.setFont(font)
+        self.Run.setIconSize(QtCore.QSize(20, 20))
+        self.Run.setObjectName("Run")
+        self.pointset = QtWidgets.QLabel(self.centralwidget)
+        self.pointset.setGeometry(QtCore.QRect(170, 80, 121, 561))
+        self.pointset.setText("")
+        self.pointset.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.pointset.setObjectName("pointset")
+        self.SaveResult = QtWidgets.QPushButton(self.centralwidget)
+        self.SaveResult.setGeometry(QtCore.QRect(40, 480, 101, 41))
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.SaveResult.setFont(font)
+        self.SaveResult.setIconSize(QtCore.QSize(20, 20))
+        self.SaveResult.setObjectName("SaveResult")
+        self.LoadResult = QtWidgets.QPushButton(self.centralwidget)
+        self.LoadResult.setGeometry(QtCore.QRect(40, 560, 101, 41))
+        font = QtGui.QFont()
+        font.setFamily("Arial")
+        font.setPointSize(12)
+        self.LoadResult.setFont(font)
+        self.LoadResult.setIconSize(QtCore.QSize(20, 20))
+        self.LoadResult.setObjectName("LoadResult")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1000, 21))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.OpenFile.setText(_translate("MainWindow", "open file"))
+        self.NextGraph.setText(_translate("MainWindow", "next graph"))
+        self.Clean.setText(_translate("MainWindow", "clean"))
+        self.StepByStep.setText(_translate("MainWindow", "step by step"))
+        self.Run.setText(_translate("MainWindow", "run"))
+        self.SaveResult.setText(_translate("MainWindow", "save result"))
+        self.LoadResult.setText(_translate("MainWindow", "load result"))
+
