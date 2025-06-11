@@ -1,5 +1,5 @@
 # Vonoroi
-中山大學 資訊工程學系 碩士班二年級 M103040071 陳啟嘉
+中山大學 資訊工程學系 陳啟嘉
 
 主介面
 ![](https://raw.githubusercontent.com/GasorinP/vonoroi-school-project/master/readme_img/main_view.jpg)
