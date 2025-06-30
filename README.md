@@ -70,7 +70,4 @@ over :
 
 ![](https://raw.githubusercontent.com/GasorinP/vonoroi-school-project/master/readme_img/over.jpg)
 
-# 結論與心得
-當輸入點多於11點時，有機率發生HP生成錯誤導致結果有誤。初步推斷為設計程式時為了可以輸出到畫面上，在創建Edge時有加上額外的限制，導致在某種情況下此限制會和演算法的計算衝突使得結果有誤。
 
-往後若想完善此軟體，應對實作的方法進行調整，將抽象的概念和實際畫面切割的更明確避免上述問題發生。
